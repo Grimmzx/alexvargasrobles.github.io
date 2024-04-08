@@ -1,8 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px;
+
+}
+
+.seccion-oscura{
+    background-color: #25203E;
+    color: #fff;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: #fff;
+}
+
 /* Barra de nav */
 
 .navbar{
     padding: 2rem;
-    background-color: #25203E;
+    background-color:
     
 }
 
@@ -10,24 +42,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-}
-.anta-regular {
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-h1{
-    font-size: 2.5rem;
-}
-
 
 
 /* Seccion hero */
@@ -54,10 +68,27 @@ h1{
     color: #4f565c;
 }
 
-.hero-inferior-imagen{
+/*Sobre mi*/
 
+.sobre-mi{
+    height: 400px;
+    padding: 10px;
 }
 
+.sobre-mi .contenedor {
+    max-width: 400px;
+    text-align: center;
+}
+
+/*Proyectos*/
+.proyectos{
+    padding: 40px;
+}
+
+.card-body:hover {
+    color: white;
+    background-color: black;
+}
 
 /*Adaptable responsivo*/
 
@@ -73,4 +104,3 @@ h1{
     }
 };
     
-}
