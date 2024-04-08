@@ -115,6 +115,23 @@ h1{
     padding: 40px;
 }
 
+/*Footer*/
+footer{
+    min-height: 150px;
+}
+
+.redes-sociales {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1,5rem;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 
 /*Adaptable responsivo*/
 
