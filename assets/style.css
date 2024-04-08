@@ -20,6 +20,13 @@ h1{
 
 }
 
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #4f565c;
+    padding: 20px;
+    text-align: center;
+}
+
 .seccion-oscura{
     background-color: #25203E;
     color: #fff;
@@ -89,6 +96,25 @@ h1{
     color: white;
     background-color: black;
 }
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.texto-negro {
+    color: #000000;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+/*Contacto*/
+
+.contacto {
+    padding: 40px;
+}
+
 
 /*Adaptable responsivo*/
 
