@@ -22,9 +22,9 @@
 </head>
 <body>
     <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
@@ -32,13 +32,16 @@
                 <img src="./assets/imgs/icon logo-vr.svg" alt="Logo AVR" width="50rem"> </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                <a class="nav-link active" aria-current="page" href="#hero">Sobre mi</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                  <a class="nav-link" href="#experiencia">Cualidades</a>
+                  </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
             
@@ -46,30 +49,64 @@
         </div>
     </nav>
     <!--Seccion Hero-->
-    <section class="hero align-items-stretch">
+    <section class="hero align-items-stretch" id="hero">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center"> 
             <img class="hero-imagen-desarrollador" src="./assets/imgs/Hero.jpg" alt="Fondo de pantalla" width="350px">
             <h1 class="link-light">Hola, soy Alex Vargas Robles</h1>
-            <h2>Desarrollador Full Stack</h2>
-        </div>
-        <div class="hero-inferior-imagen img-fluid">
-            <img src="./assets/imgs/Background.jpg" alt="pinguinos" width="100%">
-
-        </div>
-    </section>
-
-    <!--Sobre mi-->
-    <section class="sobre-mi seccion-oscura">
-        <div class="contenedor">
-            <h2 class="seccion-titulo">Conóceme</h2>
-            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis odit obcaecati iusto quibusdam quam earum! Magnam voluptatum, impedit accusantium necessitatibus accusamus esse saepe, quam eveniet cumque culpa non praesentium!</p>
+            <h2>Trabajador Social y Desarrollador Full Stack en formación. </h2>
+            <p class="seccion-texto link-light">Profesional con más de siete años de experiencia en la 
+              ejecución de programas psicosociales por medio de la intervención, supervisión, 
+              coordinación de redes y liderazgo de equipos. <br>
+              Orientación al diseño, operatividad, gestión y evaluación de procesos, con alta capacidad de innovación y resolución de conflictos.</p>
         </div>
     </section>
-    
+
+    <!--Experiencia-->
+    <section class="experiencia" id="experiencia">
+      <div class="container d-flex flex-column justify-content-center text-center align-items-center ">
+      <div class="row">
+        <div class="col-12 col-md-4">
+            <i class="fas fa-user-tie fa-3x my-3 "></i>
+            <h3 class="my-3 fw-bold">Experiencia profesional</h3>
+            <p class="my-3">
+                Con más de 8 años de trabajo en infancia y juventud, por medio de la protección y restitución 
+                de derechos de niños, niñas y adolescentes, he liderado equipos en distintas condiciones y situaciones,
+                permitiendome aprender y mejorar en cada nueva oportunidad.
+              
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <i class="fa-solid fa-users-gear fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Talento Digital</h3>
+            <p class="my-3">
+                Soy parte de los Talentos Digitales de la Municipalidad de Peñalolén.
+                Somos los encargados de apoyar y guíar el proceso de Transformación Digital a nivel
+                municipal. Siempre buscamos las mejores soluciones pensadas en el cliente final:
+                Los vecinos y vecinas.
+              
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <i class="fa-solid fa-lightbulb fa-3x my-3"></i>
+            <h3 class="my-3 fw-bold">Innovación</h3>
+            <p class="my-3">
+                Me encanta buscar soluciones rápidas a problemas que surgan en el quehacer diario.
+                Durante estos años de experiencia, he logrado quick wins que permiten avanzar a los distintos
+                equipos de trabajo que me ha tocado guiar y acompañar en el cumplimiento de los objetivos.
+
+            </p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
     <!--Proyectos-->
-    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <section class="proyectos-recientes seccion-clara d-flex flex-column" id="proyectos-recientes">
         <h2 class="seccion-titulo texto-negro"> Mis proyectos recientes</h2>
-        <h3 class="seccion-descripcion"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui delectus inventore eveniet quam accusamus voluptate quidem pariatur sapiente consequuntur voluptas nobis enim a, ad blanditiis incidunt explicabo veritatis aliquid veniam!</h3>
+        <h4 class="seccion-descripcion text-center"> 
+            Actualmente, en el proceso de formación de Desarrollador Full Stack, he desarrollado los siguientes
+          proyectos:</h4>
 
         <div class="container-fluid text-center">
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -111,26 +148,36 @@
     </section>
 
     <!--Contacto-->
-    <section class="contacto seccion-oscura">
+    <section class="contacto seccion-oscura" id="contacto">
         <div class="container-fluid">
             <h3 class="justify-content-center text-center">Contacto</h3>
             <div class="container text-center justify-content-evenly">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">¿Que necesitas?</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                    
-                </div>
-                 
-            </div>
+            
+
+            <div class="form-group mb-4">
+              <label class="mb-2">Nombre</label>
+              <input class="form-control" placeholder="Nombre">
+          </div>
+
+          <div class="form-group mb-4">
+              <label class="mb-2">Correo electrónico</label>
+              <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+
+          <div class="form-group">
+              <label class="mb-2">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+
+          <div class="my-3 text-end text-center">
+              <button class="btn btn-info text-light">Enviar</button>
+          </div>
+        </div>
+
     </section>
 
     <!--Footer-->
-
     <footer class="seccion-clara d-flex flex-column align-items-center justify-content-center">
       <div>
         <h5 class="footer-texto text-center justify-content-center"> SIGAMOS EN CONTACTO</h5>
@@ -152,8 +199,9 @@
           </a>
       </div>
       <div>
-        <P class="text-center">ALEX VARGAS ROBLES.<br>
-          Todos los derechos reservados.</P>
+        <p class="propiedad text-center">ALEX VARGAS ROBLES.<br>
+          Todos los derechos reservados. <br>
+        2024</p>
       </div>
   </footer>
   

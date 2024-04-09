@@ -20,26 +20,23 @@ h1{
 
 }
 
-i {
-    padding: 10px;
-    justify-content: center;
-    
+
 }
 .seccion-descripcion {
     font-size: 1.2rem;
-    color: #4f565c;
+    color: #274966;
     padding: 20px;
     text-align: center;
 }
 
 .seccion-oscura{
-    background-color: #25203E;
-    color: #fff;
+    background-color: #3b413c;
+    color: #daf0ee;
 }
 
 .seccion-clara{
     color: black;
-    background-color: #fff;
+    background-color: #daf0ee;
 }
 
 /* Barra de nav */
@@ -58,7 +55,7 @@ i {
 /* Seccion hero */
 
 .hero{
-    background-color: #25203E;
+    background-color: #3b413c;
     min-height: 450px;
     text-align: center;
 }
@@ -71,29 +68,27 @@ i {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 60px;
 }
 
 .hero-principal h2{
     font-size: 1.5rem;
-    color: #4f565c;
+    color: #94d1be;
 }
 
 /*Sobre mi*/
 
-.sobre-mi{
-    height: 400px;
-    padding: 10px;
-}
-
-.sobre-mi .contenedor {
-    max-width: 400px;
-    text-align: center;
+.experiencia{
+    padding: 40px;
 }
 
 /*Proyectos*/
 .proyectos{
     padding: 40px;
+}
+
+.seccion-descripcion{
+    padding: 20px;
 }
 
 .card-body:hover {
@@ -124,9 +119,9 @@ footer{
     min-height: 150px;
 }
 
-.redes-sociales {
+.redes-sociales i {
     width: 80px;
-    margin: 10px;
+    padding: 10px;
 }
 
 .footer-texto {
@@ -134,6 +129,9 @@ footer{
     padding: 10px;
 }
 
+.propiedad {
+    margin-top: 20px;
+}
 
 /*Adaptable responsivo*/
 
