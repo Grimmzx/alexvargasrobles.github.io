@@ -20,6 +20,11 @@ h1{
 
 }
 
+i {
+    padding: 10px;
+    justify-content: center;
+    
+}
 .seccion-descripcion {
     font-size: 1.2rem;
     color: #4f565c;
@@ -41,7 +46,6 @@ h1{
 
 .navbar{
     padding: 2rem;
-    background-color:
     
 }
 
@@ -112,7 +116,7 @@ h1{
 /*Contacto*/
 
 .contacto {
-    padding: 40px;
+    padding: 20px;
 }
 
 /*Footer*/
@@ -121,15 +125,13 @@ footer{
 }
 
 .redes-sociales {
-    height: 80px;
     width: 80px;
     margin: 10px;
 }
 
 .footer-texto {
-    font-size: 1,5rem;
-    padding: 20px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
 
